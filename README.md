@@ -48,7 +48,8 @@ Install them using:
 
 ```bash
 pip install -r requirements.txt
-```markdown
+```
+
 The treatment-group allocation script requires R and the following
 packages:
 
@@ -60,17 +61,15 @@ packages:
 
 The analysis pipeline expects:
 
-Doric fiber-photometry exports in CSV format.
-Behavioural scoring files in XLSX format containing manually scored
-HTR frame indices and optional scorer annotations.
+1. Doric fiber-photometry exports in CSV format.
+2. Behavioural scoring files in XLSX format containing manually scored HTR frame indices and optional scorer annotations.
 
 File paths and experimental conditions are specified in the configuration
-section of the group-analysis script [or: in the accompanying manifest,
-if you moved them to a separate manifest file].
+section of the group-analysis script.
 
 Raw experimental data are not included in this repository.
 
-Fiber-photometry analysis
+## Fiber-photometry analysis
 
 Recordings contain a 405-nm reference channel and a 465/470-nm
 glutamate-sensitive iGluSnFR channel.
