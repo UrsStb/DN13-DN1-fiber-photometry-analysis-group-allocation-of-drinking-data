@@ -48,15 +48,15 @@ Install them using:
 
 ```bash
 pip install -r requirements.txt
-
+```markdown
 The treatment-group allocation script requires R and the following
 packages:
 
-readxl
-writexl
+- `readxl`
+- `writexl`
 
 
-##Input data
+## Input data
 
 The analysis pipeline expects:
 
